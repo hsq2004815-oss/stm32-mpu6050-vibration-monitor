@@ -9,12 +9,12 @@
 #define ESP8266_ATIMEOUT      5000
 
 // WiFi配置 - 修改为您的网络设置
-#define WIFI_SSID           "hsq"      // 修改为您的WiFi名称
-#define WIFI_PASSWORD       "hsqhsqhsq"  // 修改为您的WiFi密码
+#define WIFI_SSID           "YOUR_WIFI_SSID"      // replace with your local WiFi SSID
+#define WIFI_PASSWORD       "YOUR_WIFI_PASSWORD"  // replace with your local WiFi password
 
 // TCP服务器配置 (QT上位机作为TCP服务器)
-#define TCP_SERVER_IP       "10.249.7.237"  // 修改为QT上位机所在电脑的IP
-#define TCP_SERVER_PORT     "8080"           // QT上位机监听的端口
+#define TCP_SERVER_IP       "192.168.1.100"  // replace with your Qt host machine IP
+#define TCP_SERVER_PORT     "8080"           // default Qt TCP server port
 
 // ESP8266状态枚举
 typedef enum {

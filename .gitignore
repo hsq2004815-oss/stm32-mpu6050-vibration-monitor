@@ -1,0 +1,37 @@
+.omx/
+
+# General
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Qt / Qt Creator
+Project_job/*.pro.user
+Project_job/.qmake.stash
+Project_job/build*/
+Project_job/debug/
+Project_job/release/
+Project_job/*.obj
+Project_job/*.o
+Project_job/*.exe
+Project_job/*.dll
+Project_job/*.pdb
+
+# Keil / MDK
+VibDemo_alarm_finished/MDK-ARM/.vscode/
+VibDemo_alarm_finished/MDK-ARM/*.uvguix.*
+VibDemo_alarm_finished/MDK-ARM/*.uvoptx
+VibDemo_alarm_finished/MDK-ARM/*.log
+VibDemo_alarm_finished/MDK-ARM/startup_stm32f407xx.lst
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.axf
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.crf
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.d
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.dep
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.hex
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.htm
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.iex
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.lnp
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.map
+VibDemo_alarm_finished/MDK-ARM/VibDemo/*.o
